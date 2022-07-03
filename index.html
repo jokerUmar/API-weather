@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <form class="form">
+                <input type="text" required class="input__text" placeholder="country" >
+                <button style="height: 40px; background-color: blue; border-radius: 10px; visibility: hidden;">search</button>
+            </form>
+
+            <div style="display: flex; align-items: center; justify-content: space-around;">
+
+                <div class="boxOne"> 
+                    <h2 class="country-name">Tashkent</h2>
+                    <p style="font-size: 20px;" >Country: <span class="country-nickname">UZ</span></p>
+                    <p style="margin-bottom: 5px; margin-top: 5px; font-size: 18px;" class="gradus">30 °C </p>
+                    <p style="font-size: 20px;">Speed: <span class="speed">3 m/s</span></p>    
+            
+                </div>
+
+                <div>
+                    <img src="	https://weather-apiuz.netlify.app/img/cloudy.svg" height="150" width="150" alt="">
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
